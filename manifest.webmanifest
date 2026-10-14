@@ -1,0 +1,15 @@
+{
+  "name": "Minweeei RPG",
+  "short_name": "Minweeei RPG",
+  "description": "A cozy pixel RPG for your real-life wellness quest.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8edda",
+  "theme_color": "#38271f",
+  "icons": [
+    {"src": "./app-icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./app-icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}
