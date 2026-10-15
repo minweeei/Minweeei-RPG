@@ -36,3 +36,14 @@ A self-contained, mobile-first pixel-RPG-style wellness tracker.
 - Anyone can visit a public GitHub Pages site. Do not store sensitive/private information in it.
 - The two look screens are editable placeholders, not celebrity photographs.
 - If you update the app and the iPhone keeps showing an old version, close the web app and reload Safari; service-worker cache updates may take a refresh.
+
+
+## Updated in this version
+- Replaced the hero avatar with the saved green-striped pixel character and added saved hiking, office/commute, and running pixel art.
+- Added a live `D-xx till 11/21` countdown.
+- Replaced core water, weight, and salad UI symbols with cropped pixel-art assets.
+- Weight history now accepts a selectable date, supports past entries, and updates an existing entry when the same date is selected.
+
+
+## v3
+Original uploaded pixel character assets are included in assets/. The original image collage was cropped into separate water bottle, scale, salad and running character files. Historical weight check-ins support a chosen date; the latest dated weight remains current. Upload the CONTENTS of this folder to your GitHub Pages repository root.
