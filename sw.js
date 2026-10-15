@@ -1,4 +1,4 @@
-const CACHE = "minweeei-rpg-v3";
+const CACHE = "minweeei-rpg-v3-1";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./app-icon-192.png", "./app-icon-512.png", "./apple-touch-icon.png", "./assets/character-striped.png", "./assets/character-hiking.png", "./assets/character-office.png", "./assets/character-study.png", "./assets/character-running.png", "./assets/pixel-bottle.png", "./assets/pixel-scale.png", "./assets/pixel-salad.png"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)).then(() => self.skipWaiting()));
